@@ -15,6 +15,9 @@
 		6442B7B520FF342C002D1D90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442B7B420FF342C002D1D90 /* main.m */; };
 		6442B7BF20FF342C002D1D90 /* TestingsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442B7BE20FF342C002D1D90 /* TestingsTests.m */; };
 		6442B7CA20FF342C002D1D90 /* TestingsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442B7C920FF342C002D1D90 /* TestingsUITests.m */; };
+		6442B7DD20FF34DD002D1D90 /* YMDrawPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442B7DC20FF34DD002D1D90 /* YMDrawPath.m */; };
+		6442B7E020FF35E9002D1D90 /* YMDrawScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442B7DF20FF35E9002D1D90 /* YMDrawScrollView.m */; };
+		6442B7E320FF36E1002D1D90 /* YMDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6442B7E220FF36E1002D1D90 /* YMDrawView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		6442B7C520FF342C002D1D90 /* TestingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6442B7C920FF342C002D1D90 /* TestingsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestingsUITests.m; sourceTree = "<group>"; };
 		6442B7CB20FF342C002D1D90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6442B7DB20FF34DD002D1D90 /* YMDrawPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMDrawPath.h; sourceTree = "<group>"; };
+		6442B7DC20FF34DD002D1D90 /* YMDrawPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMDrawPath.m; sourceTree = "<group>"; };
+		6442B7DE20FF35E9002D1D90 /* YMDrawScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMDrawScrollView.h; sourceTree = "<group>"; };
+		6442B7DF20FF35E9002D1D90 /* YMDrawScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMDrawScrollView.m; sourceTree = "<group>"; };
+		6442B7E120FF36E1002D1D90 /* YMDrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMDrawView.h; sourceTree = "<group>"; };
+		6442B7E220FF36E1002D1D90 /* YMDrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMDrawView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +110,7 @@
 		6442B7A420FF342A002D1D90 /* Testings */ = {
 			isa = PBXGroup;
 			children = (
+				6442B7DA20FF34DD002D1D90 /* YMDrawBoarder */,
 				6442B7A520FF342A002D1D90 /* AppDelegate.h */,
 				6442B7A620FF342A002D1D90 /* AppDelegate.m */,
 				6442B7A820FF342A002D1D90 /* ViewController.h */,
@@ -130,6 +140,19 @@
 				6442B7CB20FF342C002D1D90 /* Info.plist */,
 			);
 			path = TestingsUITests;
+			sourceTree = "<group>";
+		};
+		6442B7DA20FF34DD002D1D90 /* YMDrawBoarder */ = {
+			isa = PBXGroup;
+			children = (
+				6442B7DB20FF34DD002D1D90 /* YMDrawPath.h */,
+				6442B7DC20FF34DD002D1D90 /* YMDrawPath.m */,
+				6442B7DE20FF35E9002D1D90 /* YMDrawScrollView.h */,
+				6442B7DF20FF35E9002D1D90 /* YMDrawScrollView.m */,
+				6442B7E120FF36E1002D1D90 /* YMDrawView.h */,
+				6442B7E220FF36E1002D1D90 /* YMDrawView.m */,
+			);
+			path = YMDrawBoarder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6442B7E020FF35E9002D1D90 /* YMDrawScrollView.m in Sources */,
+				6442B7DD20FF34DD002D1D90 /* YMDrawPath.m in Sources */,
 				6442B7AA20FF342A002D1D90 /* ViewController.m in Sources */,
 				6442B7B520FF342C002D1D90 /* main.m in Sources */,
+				6442B7E320FF36E1002D1D90 /* YMDrawView.m in Sources */,
 				6442B7A720FF342A002D1D90 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
