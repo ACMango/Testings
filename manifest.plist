@@ -11,19 +11,19 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://github.com/ACMango/Testings/raw/master/IDSLincoln.ipa</string>
+					<string>https://raw.githubusercontent.com/ACMango/Testings/master/IDSLincoln.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1597058555050&amp;di=e8af7d2adf8ebb68253d219f445c2031&amp;imgtype=0&amp;src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201601%2F19%2F20160119183538_tVRzf.thumb.700_0.png</string>
+					<string>https://raw.githubusercontent.com/ACMango/Testings/master/test.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1597058555050&amp;di=e8af7d2adf8ebb68253d219f445c2031&amp;imgtype=0&amp;src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201601%2F19%2F20160119183538_tVRzf.thumb.700_0.png</string>
+					<string>https://raw.githubusercontent.com/ACMango/Testings/master/test.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
@@ -31,7 +31,7 @@
 				<key>bundle-identifier</key>
 				<string>com.softbravo.idsLincoln</string>
 				<key>bundle-version</key>
-				<string>0.0.52</string>
+				<string>0.0.54</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>platform-identifier</key>
