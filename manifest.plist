@@ -29,9 +29,9 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.softbravo.idsLincoln1</string>
+				<string>com.lincoln.fafcids</string>
 				<key>bundle-version</key>
-				<string>0.0.54</string>
+				<string>0.0.1</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>platform-identifier</key>
