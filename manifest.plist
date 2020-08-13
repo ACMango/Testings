@@ -11,31 +11,33 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://idsapp.csmc-cloud.com/ngas/version/download?filename=662F802F7B0F4AFBB8B8B36E52FE2ACD</string>
+					<string>https://github.com/ACMango/Testings/raw/master/IDSLincoln.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>https://idsapp.csmc-cloud.com/ngas/image/FordIcon_57.png</string>
+					<string>https://raw.githubusercontent.com/ACMango/Testings/master/test.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>https://idsapp.csmc-cloud.com/ngas/image/FordIcon_512.png</string>
+					<string>https://raw.githubusercontent.com/ACMango/Testings/master/test.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.softbravo.ids</string>
+				<string>com.lincoln.fafcids</string>
 				<key>bundle-version</key>
-				<string>0.0.53</string>
+				<string>0.0.1</string>
 				<key>kind</key>
 				<string>software</string>
+				<key>platform-identifier</key>
+				<string>com.apple.platform.iphoneos</string>
 				<key>title</key>
-				<string>IDS</string>
+				<string>IDS_Lincoln</string>
 			</dict>
 		</dict>
 	</array>
